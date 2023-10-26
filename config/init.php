@@ -7,7 +7,7 @@ $dotenv = Dotenv\Dotenv::createImmutable($BASE_DIR);
 $dotenv->safeLoad();
 
 require $BASE_DIR . 'config/config.php';
-require $BASE_DIR . 'model.php';
+require $BASE_DIR . 'database/model.php';
 
 
 use \Slim\Factory\AppFactory;
