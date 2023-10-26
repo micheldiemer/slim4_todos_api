@@ -1,0 +1,12 @@
+{
+    "require": {
+        "slim/slim": "^4.12",
+        "illuminate/database": "^10.29",
+        "illuminate/container": "^10.29",
+        "illuminate/collections": "^10.29",
+        "vlucas/phpdotenv": "^5.5",
+        "nyholm/psr7": "^1.8",
+        "slim/http": "^1.3",
+        "nyholm/psr7-server": "^1.0"
+    }
+}
