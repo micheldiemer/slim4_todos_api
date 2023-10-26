@@ -26,7 +26,7 @@ php8.1`
 - créer un ficchier `.env` avec les bonnes configurations
 - la configuration apache2 si le projet est cloné dans `/var/www/slim` et le fichier `index.php` se trouve dans `/var/www/slim/public/index.php` :
 
-```xml
+```apacheconf
 Alias /slim /var/www/slim/public
 
 DocumentRoot /var/www/slim/public
